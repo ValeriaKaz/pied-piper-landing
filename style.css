@@ -1,0 +1,111 @@
+body {
+    margin: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #FFFFFF;
+}
+
+header {
+    /* position: fixed; */
+    box-sizing: border-box;
+    height: 84px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #007765;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-right {
+    float: right;
+    display: flex;
+}
+
+.header-right p,
+a {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.pipe-container,
+.problem-container,
+.together-container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pipe-here {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url('pictures/pipenet_here.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.pipe-here-text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.problem {
+    background: #EEEEEE;
+}
+
+.problem-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.problem-text-title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+
+.problem-text-content {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    padding-bottom: 92px;
+}
+
+.together {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('pictures/together.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.together-text {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
