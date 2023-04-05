@@ -36,9 +36,7 @@ a {
     text-align: center;
 }
 
-.pipe-container,
-.problem-container,
-.together-container {
+.container {
     box-sizing: border-box;
     max-width: 1219px;
     padding-left: 55px;
@@ -47,7 +45,7 @@ a {
     margin-right: auto;
 }
 
-.pipe-here {
+.pipe-here-block {
     padding-top: 160px;
     padding-bottom: 160px;
     background-image: url('pictures/pipenet_here.jpg');
@@ -65,17 +63,18 @@ a {
     color: #FFFFFF;
 }
 
-.problem {
-    background: #EEEEEE;
+.problem-block {
+    background-color: #EEEEEE;
 }
 
-.problem-text {
+.problem-text,
+.caption {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 
-.problem-text-title {
-    font-weight: 500;
+.caption {
+    font-weight: 550;
     font-size: 64px;
     line-height: 75px;
     text-align: center;
@@ -84,15 +83,26 @@ a {
     padding-bottom: 16px;
 }
 
-.problem-text-content {
+.text,
+.text_ {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
     color: #000000;
+}
+
+.text {
     padding-bottom: 92px;
 }
 
-.together {
+.text_ {
+    padding-top: 16px;
+    padding-bottom: 35px;
+}
+
+.together-block {
     padding-top: 128px;
     padding-bottom: 128px;
     background-image: url('pictures/together.jpg');
@@ -108,4 +118,19 @@ a {
     line-height: 56px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.coin-block {
+    background-color: #FFFFFF;
+}
+
+.coin-content {
+    padding-top: 48px;
+}
+
+.ppc-logo {
+    float: left;
+    width: 114px;
+    height: 114px;
+    padding-right: 48px;
 }
