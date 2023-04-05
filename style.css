@@ -16,6 +16,8 @@ header {
 
 .logo {
     float: left;
+    width: 184px;
+    height: 45px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -48,7 +50,7 @@ a {
 .pipe-here-block {
     padding-top: 160px;
     padding-bottom: 160px;
-    background-image: url('pictures/pipenet_here.jpg');
+    background-image: url('pictures/pipenet_here.png');
     background-size: cover;
     background-position: center center;
 }
@@ -63,7 +65,8 @@ a {
     color: #FFFFFF;
 }
 
-.problem-block {
+.problem-block,
+.team-block {
     background-color: #EEEEEE;
 }
 
@@ -105,7 +108,7 @@ a {
 .together-block {
     padding-top: 128px;
     padding-bottom: 128px;
-    background-image: url('pictures/together.jpg');
+    background-image: url('pictures/together.png');
     background-size: cover;
     background-position: center center;
 }
@@ -130,7 +133,43 @@ a {
 
 .ppc-logo {
     float: left;
-    width: 114px;
-    height: 114px;
+    width: 115x;
+    height: 115px;
     padding-right: 48px;
+}
+
+.block {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    height: 283px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.avatar {
+    width: 168px;
+    height: 168px;
+    padding-bottom: 12px;
+}
+
+.member-name {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.member-position {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
 }
