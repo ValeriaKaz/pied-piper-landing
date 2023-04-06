@@ -1,17 +1,20 @@
 body {
     margin: auto;
-    padding-left: 55px;
-    padding-right: 55px;
     background-color: #FFFFFF;
 }
 
 header {
-    /* position: fixed; */
-    box-sizing: border-box;
-    height: 84px;
-    padding-left: 55px;
-    padding-right: 55px;
+    position: sticky;
+    top: 0;
+
+    /* position: fixed;
+    width: 100%; */
+    
     background-color: #007765;
+}
+
+.hhh {
+    height: 84px;
 }
 
 .logo {
@@ -22,20 +25,20 @@ header {
     padding-bottom: 20px;
 }
 
-.header-right {
+.header-menu {
     float: right;
-    display: flex;
+    display: inline-flex;
 }
 
-.header-right p,
+.header-menu p,
 a {
-    color: #FFFFFF;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
+    color: #FFFFFF;
 }
 
 .container {
