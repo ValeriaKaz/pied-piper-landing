@@ -6,6 +6,8 @@ html {
 body {
     margin: 0;
     background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 
 header {
@@ -14,7 +16,7 @@ header {
     background-color: #007765;
 }
 
-.logo {
+header img {
     float: left;
     width: 184px;
     height: 45px;
@@ -28,15 +30,13 @@ nav {
 
 nav ul {
     float: right;
-    display: inline-flex;
+    display: flex;
     list-style: none;
     padding-top: 8px;
 }
 
 nav li,
 a {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -49,8 +49,7 @@ a {
     max-width: 1219px;
     padding-left: 55px;
     padding-right: 55px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .pipe-here-block {
@@ -62,8 +61,6 @@ a {
 }
 
 .pipe-here-text {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 72px;
     line-height: 84px;
@@ -76,39 +73,22 @@ a {
     background-color: #EEEEEE;
 }
 
-.problem-text,
-.caption {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-}
-
-.caption {
+h1 {
     font-weight: 550;
     font-size: 64px;
     line-height: 75px;
     text-align: center;
     color: #007765;
+    margin-top: auto;
     padding-top: 48px;
-    padding-bottom: 16px;
 }
 
-.text,
-.text_ {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+.text {
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
     color: #000000;
-}
-
-.text {
     padding-bottom: 92px;
-}
-
-.text_ {
-    padding-top: 16px;
-    padding-bottom: 35px;
 }
 
 .together-block {
@@ -120,7 +100,6 @@ a {
 }
 
 .together-text {
-    font-family: Roboto, sans-serif;
     font-style: italic;
     font-weight: 500;
     font-size: 48px;
@@ -133,37 +112,35 @@ a {
     background-color: #FFFFFF;
 }
 
-.coin-content {
-    padding-top: 48px;
-}
-
-.ppc-logo {
+.coin-block img {
     float: left;
     width: 115x;
     height: 115px;
     padding-right: 48px;
 }
 
-.block {
-    display: inline-block;
-    text-align: center;
-    width: 350px;
-    height: 283px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.members {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.avatar {
+.member {
+    box-sizing: border-box;
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+.member img {
     width: 168px;
     height: 168px;
-    padding-bottom: 12px;
 }
 
 .member-name {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
+    margin: 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -171,7 +148,6 @@ a {
 }
 
 .member-position {
-    font-family: Roboto, sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 18px;
@@ -185,8 +161,6 @@ a {
 }
 
 .footer-message {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
